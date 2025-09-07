@@ -2,7 +2,7 @@ from PySide6.QtGui import QValidator
 
 __version__ = "1.0.0"
 
-class EasyValidator:
+class SideValidator:
     """PySide6验证器库 - 封装各种常用验证器"""
     
     class number:
