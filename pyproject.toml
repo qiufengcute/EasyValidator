@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "EasyValidator"
+name = "SideValidator"
 version = "1.0.0"
 description = "Add some Qt input validator."
 authors = ["qiufeng <appleidqiufeng@outlook.com>"]
@@ -13,9 +13,9 @@ classifiers = [
 ]
 
 [tool.poetry.urls]
-"Homepage" = "https://github.com/qiufengcute/EasyValidator"
-"Repository" = "https://github.com/qiufengcute/EasyValidator"
-"Changelog" = "https://github.com/qiufengcute/EasyValidator/blob/main/CHANGELOG.md"
+"Homepage" = "https://github.com/qiufengcute/SideValidator"
+"Repository" = "https://github.com/qiufengcute/SideValidator"
+"Changelog" = "https://github.com/qiufengcute/SideValidator/blob/main/CHANGELOG.md"
 
 [tool.poetry.dependencies]
 python = "^3.8"
@@ -23,4 +23,5 @@ PySide6 = "^6.0"
 
 [build-system]
 requires = ["poetry-core"]
+
 build-backend = "poetry.core.masonry.api"
